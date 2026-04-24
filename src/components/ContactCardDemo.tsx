@@ -138,7 +138,7 @@ Web: ${contact.website}`;
 
           <button
             onClick={() => copy(formatVCard(contact))}
-            className="w-full p-4 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white rounded-lg transition-colors text-left"
+            className="w-full p-4 bg-linear-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white rounded-lg transition-colors text-left"
           >
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
