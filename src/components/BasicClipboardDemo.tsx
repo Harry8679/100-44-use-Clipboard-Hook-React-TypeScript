@@ -15,7 +15,7 @@ const BasicClipboardDemo = () => {
 
       <div className="space-y-6">
         {/* Text Display */}
-        <div className="p-6 bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl border-2 border-dashed border-blue-300 dark:border-blue-700">
+        <div className="p-6 bg-linear-to-br from-blue-100 to-purple-100 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl border-2 border-dashed border-blue-300 dark:border-blue-700">
           <p className="text-gray-800 dark:text-white text-lg">
             {sampleText}
           </p>
