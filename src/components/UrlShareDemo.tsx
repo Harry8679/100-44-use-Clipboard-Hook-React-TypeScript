@@ -48,7 +48,7 @@ const UrlShareDemo = () => {
           >
             <div className="p-4">
               <div className="flex items-center gap-3 mb-3">
-                <div className={`w-12 h-12 rounded-full bg-gradient-to-br ${item.color} flex items-center justify-center text-2xl`}>
+                <div className={`w-12 h-12 rounded-full bg-linear-to-br ${item.color} flex items-center justify-center text-2xl`}>
                   {item.emoji}
                 </div>
                 <div className="flex-1">
