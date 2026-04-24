@@ -39,7 +39,7 @@ Web: ${contact.website}`;
 
       <div className="space-y-6">
         {/* Contact Card */}
-        <div className="p-6 bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl border-2 border-purple-300 dark:border-purple-700">
+        <div className="p-6 bg-linear-to-br from-purple-100 to-pink-100 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl border-2 border-purple-300 dark:border-purple-700">
           <div className="flex items-start gap-4 mb-4">
             <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center text-white text-2xl font-bold">
               {contact.name.split(' ').map(n => n[0]).join('')}
