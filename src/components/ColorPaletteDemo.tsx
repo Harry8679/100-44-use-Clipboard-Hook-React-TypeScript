@@ -58,7 +58,7 @@ const ColorPaletteDemo = () => {
             <div className="flex items-stretch">
               {/* Color Preview */}
               <div
-                className="w-24 flex-shrink-0"
+                className="w-24 shrink-0"
                 style={{ backgroundColor: color.hex }}
               />
 
